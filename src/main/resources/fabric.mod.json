@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "easyendaccess",
+  "version": "${version}",
+
+  "name": "Easy End Access",
+  "description": "Allows you to build end portals with end stone, allowing you to enter the end without going back to the stronghold",
+  "authors": [
+    "garterSnake()"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/easyendaccess/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gartersnake.easyendaccess.EasyEndAccess"
+    ],
+    "clint": [
+      "net.gartersnake.easyendaccess.EasyEndAccessClient"
+    ]
+  },
+  "mixins": [
+    "easyendaccess.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
