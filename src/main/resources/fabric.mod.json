@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Easy End Access",
-  "description": "Allows you to build end portals with end stone, allowing you to enter the end without going back to the stronghold",
+  "description": "Adds the ability to build end portals with end stone, allowing you to enter the end without going back to the stronghold",
   "authors": [
     "garterSnake()"
   ],
