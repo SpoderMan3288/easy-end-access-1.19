@@ -1,4 +1,4 @@
-package net.gartersnake.easyendaccess.portals;
+package net.gartersnake.easyendaccess.portal;
 
 import net.gartersnake.easyendaccess.EasyEndAccess;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;

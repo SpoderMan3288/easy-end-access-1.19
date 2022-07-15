@@ -1,7 +1,8 @@
 package net.gartersnake.easyendaccess;
 
 import net.fabricmc.api.ModInitializer;
-import net.gartersnake.easyendaccess.portals.ModPortals;
+import net.gartersnake.easyendaccess.block.ModBlocks;
+import net.gartersnake.easyendaccess.portal.ModPortals;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class EasyEndAccess implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModPortals.registerModPortals();
+		ModBlocks.registerModBlocks();
 	}
 }
