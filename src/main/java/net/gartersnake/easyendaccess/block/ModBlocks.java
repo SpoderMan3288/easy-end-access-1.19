@@ -3,6 +3,7 @@ package net.gartersnake.easyendaccess.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.gartersnake.easyendaccess.EasyEndAccess;
+import net.kyrptonaught.customportalapi.CustomPortalBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -13,8 +14,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block VERTICAL_END_PORTAL = registerBlock("vertical_end_portal",
-            new Block(FabricBlockSettings.of(Material.PORTAL).noCollision().strength(100f, 100f)), ItemGroup.MISC);
+    public static final VerticalEndPortal VERTICAL_END_PORTAL = (VerticalEndPortal) registerBlock("vertical_end_portal",
+            new VerticalEndPortal(FabricBlockSettings.of(Material.PORTAL).noCollision().strength(100f, 100f)), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

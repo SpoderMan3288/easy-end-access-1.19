@@ -1,9 +1,9 @@
 {
   "variants": {
-    "axis=x": {
+    "axis=z": {
       "model": "easyendaccess:block/vertical_end_portal_ns"
     },
-    "axis=z": {
+    "axis=x": {
       "model": "easyendaccess:block/vertical_end_portal_ew"
     }
   }
